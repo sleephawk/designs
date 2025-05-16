@@ -283,7 +283,7 @@ footerTag.forEach(foot => {
     navArray = [
       {
         menu: true,
-        link: '/designs/images/svg/bars_white.svg'
+        link: '/designs/images/SVG/bars_white.svg'
       },
       {name: 'Home',
       link: '/designs/index.html',
