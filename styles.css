@@ -1490,3 +1490,26 @@ box-sizing: border-box;
     display: inline-block;
     padding: 20px 0;
 }
+
+/*------------------------*/
+/*Soundcloud*/
+/*------------------------*/
+
+.soundcloud {
+    font-size: 10px; 
+    color: #cccccc;
+    line-break: anywhere;
+    word-break: normal;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; 
+    text-decoration: none;
+    font-family: "Interstate", "Lucida Grande", "Lucida Sans Unicode","Lucida Sans","Garuda","Verdana","Tahoma",sans-serif;
+    font-weight: 100;
+}
+
+.soundcloud-playlist {
+    color: #cccccc;
+    text-decoration: none;
+}
+
