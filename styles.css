@@ -885,17 +885,6 @@ transform: scale(1);
     transform: scale(1.05);
 }
 
-.video-container-aymee {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.video-container-aymee video {
-width: 70%;
-}
-
 /* ------------------------------------------------------------------------------ */
 /*CURTAIN UP*/
 /* ------------------------------------------------------------------------------ */
@@ -968,21 +957,6 @@ width: 70%;
     transform: scale(1.1);
 }
 
-.curtain-vids{
-    display: flex;
-    justify-content: center;
-    justify-self: center;
-    padding: 20px;
-    width: 100%;
-}
-
-.curtain-vids video {
---vid-no: 3;
-width: calc((100%/var(--vid-no))/1.3);
-padding: 0 20px;
-box-sizing: border-box;
-
-}
 
 .curtain-posters{
     display: flex;
