@@ -1,10 +1,3 @@
-/*
--- check big screen
--- wrap logo design page image and link within 1 link for the two main images
--- website works but javascript nav does not
-
-*/
-
 const backButton = document.querySelectorAll('.back');
 const nextButton = document.querySelectorAll('.next');
 const prevButton = document.querySelectorAll('.prev');
@@ -68,6 +61,12 @@ setTimeout(()=>{
     animationImage.style.backgroundImage = 'url(images/logos/animation/w3_animation.png)';}
   , 400); }
 
+  const headTag = document.querySelector('head');
+  const favicon = document.createElement('link');
+  favicon.setAttribute('rel', 'icon');
+  favicon.setAttribute('href', 'favicon.svg');
+  favicon.setAttribute('type', 'image/svg+xml');
+  headTag.appendChild(favicon);
 
 
   backButton.forEach(button => {
